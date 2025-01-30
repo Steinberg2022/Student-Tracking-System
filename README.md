@@ -1,5 +1,9 @@
 # Student-Tracking-System
 
+## NETLIFY LINK:
+## https://student-tracking-system-by-steinberg.netlify.app/   
+
+
 This website has three options
   * Add Students
   * Remove Students
@@ -17,4 +21,6 @@ The site has a automatic id genarating system.
 
 Students id should be provided while searching or deleting a student.
 
-RUN INDEX.HTML TO GET INTO THE MAIN PAGE OF THE WEBSITE
+### RUN INDEX.HTML TO GET INTO THE MAIN PAGE OF THE WEBSITE
+
+
