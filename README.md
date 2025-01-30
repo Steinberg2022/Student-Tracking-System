@@ -16,3 +16,5 @@ You can add A Students
 The site has a automatic id genarating system.
 
 Students id should be provided while searching or deleting a student.
+
+RUN INDEX.HTML TO GET INTO THE MAIN PAGE OF THE WEBSITE
