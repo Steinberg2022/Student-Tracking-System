@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Student</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="addStudentStyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <button class="func_button" id="back"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+    <div id="title"><h1>Search Student</h1></div>
+    <div id="main">
+        <form id="search_form">
+            <div class="form_class"><label for="id">Student ID : </label>  
+            <input class="form_input" type="number" id="id" name="id" placeholder="Eg. 2332493" required></div>
+            <button class="func_button" id="submit" type="submit">Search</button>
+        </form>
+    </div>
+
+    <script type="module" src="searchStudent.js"></script>
+</body>
+</html>

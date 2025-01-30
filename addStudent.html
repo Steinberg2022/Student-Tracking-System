@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Students</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="addStudentStyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      
+</head>
+<body>
+    <button class="func_button" id="back"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+
+    <div id="title">
+        <h1>Add Student</h1>
+    </div>
+    <div id="main">
+        <form id="form1">
+            <div class="form_class"><label for="id">Student ID : </label>  
+            <input class="form_input" type="number" id="id" name="id" disabled required></div>
+            <div class="form_class"><label for="name">Student Name : </label>  
+            <input class="form_input" type="text" id="name" name="name" placeholder="Eg. Chamindu Wickramarachchi" required></div>
+            <div class="form_class"><label for="phone">Student Phone Number : </label>  
+            <input class="form_input" type="text" id="phone" name="phone" placeholder="Eg. 0718204993" required></div>
+            <div class="form_class"><label for="EA_number">Count of Extra Curricular Activities : </label>
+            <input class="form_input" type="number" id="EA_number" name="EA_number" max="8" min="0" placeholder="Eg. 2" required></div>
+            <div class="form_class"><label for="Achivement_number">Count of School Achivement : </label>
+            <input class="form_input" type="number" max="8" min="0" id="Achivement_number" name="Achivement_number" placeholder="Eg. 5" required></div>
+            <button class="func_button" id="submit" type="submit">Submit</button>
+            
+        </form>
+    </div>
+
+    <script type = "module" src="addStudent1.js"></script>
+</body>
+</html>
