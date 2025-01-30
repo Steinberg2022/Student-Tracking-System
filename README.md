@@ -1,9 +1,9 @@
 # Student-Tracking-System
 
 This website has three options
-  1 Add Students
-  2 Remove Students
-  3 Search Students
+  * Add Students
+  * Remove Students
+  * Search Students
 
 The website uses local host to store students (It helps to store students permanantly)
 
